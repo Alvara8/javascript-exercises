@@ -1,4 +1,12 @@
-const repeatString = function() {
+const repeatString = function(word,times) {
+
+let newWord="";
+
+for(let i=0;i<times;i++){
+newWord+=word;
+}
+
+return newWord;
 
 };
 
